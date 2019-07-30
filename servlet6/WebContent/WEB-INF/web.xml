@@ -1,0 +1,21 @@
+<web-app>  
+ <servlet>  
+    <servlet-name>Login</servlet-name>  
+    <servlet-class>com.cutm.Login</servlet-class>  
+  </servlet>  
+  <servlet>  
+    <servlet-name>WelcomeServlet</servlet-name>  
+    <servlet-class>com.cutm.WelcomeServlet</servlet-class>  
+  </servlet>  
+  
+  
+  <servlet-mapping>  
+    <servlet-name>Login</servlet-name>  
+    <url-pattern>/servlet1</url-pattern>  
+  </servlet-mapping>  
+  <servlet-mapping>  
+    <servlet-name>WelcomeServlet</servlet-name>  
+    <url-pattern>/servlet2</url-pattern>  
+  </servlet-mapping>
+  
+  </web-app>
