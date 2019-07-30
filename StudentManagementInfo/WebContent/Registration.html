@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Register" method="post">
+<table align="center" border="5">
+	<caption>Student Registration Form</caption>
+	<tr>
+		<td>Student ID</td>
+		<td><input type="text" name="studentId"/></td>
+	</tr>
+	<tr>
+		<td>Student Name</td>
+		<td><input type="text" name="studentName"/></td>
+	</tr>
+	<tr>
+		<td>User Name</td>
+		<td><input type="text" name="userName"/></td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td><input type="password" name="password"/></td>
+	</tr>
+	<tr>
+		<td>Confirm Password</td>
+		<td><input type="password" name="conPassword"/></td>
+	</tr>
+	<tr>
+		<td>Email ID</td>
+		<td><input type="text" name="emailId"/></td>
+	</tr>
+	<tr>
+		<td>Mobile No</td>
+		<td><input type="text" name="mobileNo"/></td>
+	</tr>
+	<tr>
+		<td>Gender</td>
+		<td>
+			<input type="radio" name="gender" value="Male"/>Male
+			<input type="radio" name="gender" value="Female"/>Female			
+		</td>
+	</tr>
+	<tr>
+		<td>Languages Known</td>
+		<td>
+			<input type="checkbox" name="language" value="English">English
+			<input type="checkbox" name="language" value="Hindi">Hindi <br/>
+			<input type="checkbox" name="language" value="Telugu">Telugu
+			<input type="checkbox" name="language" value="Tamil">Tamil
+		</td>
+	</tr>
+	<tr>
+		<td>Highest Qualification</td>
+		<td>
+			<select name="qualification">
+				<option>Intermediate</option>
+				<option>Graduate</option>
+				<option>PostGraduate</option>
+				<option>Doctorate</option>
+			</select>
+		</td>		
+	</tr>
+	<tr>
+		<td>Comments</td>
+		<td>
+			<textarea rows="5" cols="30" name="comments"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td><input type="reset" value="Reset"/></td>
+		<td><input type="submit" value="Register"/></td>
+	</tr>	
+</table>
+</form>
+
+</body>
+</html>

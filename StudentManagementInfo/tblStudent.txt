@@ -1,0 +1,11 @@
+CREATE TABLE tblStudent
+( STUDENTID               NUMBER(4)
+ ,STUDENTNAME         VARCHAR2(30)
+ ,USERNAME                VARCHAR2(10)
+ ,PASSWORD                VARCHAR2(10)
+ ,EMAILID                    VARCHAR2(15)
+ ,MOBILENO                VARCHAR2(10)
+ ,GENDER                    VARCHAR2(7)
+ ,LANGUAGES             VARCHAR2(40)
+ ,QUALIFICATION      VARCHAR2(30)
+ ,COMMENTS            VARCHAR2(50));
