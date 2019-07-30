@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+   <servlet-name>Form</servlet-name>
+   <servlet-class>com.cutm.From</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>Form</servlet-name>
+   <url-pattern>/HelloForm</url-pattern>
+</servlet-mapping>
+</web-app>
